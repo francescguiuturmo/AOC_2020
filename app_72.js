@@ -6,7 +6,6 @@ const readInterface = readline.createInterface({
   console: false
 });
 
-let bagsOK = new Set();
 let emptyBags = new Set();
 let allBags = new Map();
 const bagToFind = 'shiny gold';
